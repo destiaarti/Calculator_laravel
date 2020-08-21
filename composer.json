@@ -1,0 +1,29 @@
+{
+    "name": "dawah/kalkulator",
+    "description": "uu",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "destiaarti",
+            "email": "dawahyuh@student.ce.undip.ac.id"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Dawah\\Kalkulator\\": "packages/dawah/kalkulator/src/"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+
+}
